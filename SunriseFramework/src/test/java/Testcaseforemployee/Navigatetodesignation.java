@@ -32,6 +32,7 @@ public class Navigatetodesignation extends Base{
 		lp.ValidateLogin();
 		Thread.sleep(4000);
 		dp.navigate_to_module();
+		dp.CreatingDesignation();
 	}
 
 }

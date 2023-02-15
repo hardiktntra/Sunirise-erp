@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-14T18:45:51 IST" name="Default suite" finished-at="2023-02-14T18:46:05 IST" duration-ms="14068">
+  <suite started-at="2023-02-15T15:42:28 IST" name="Default suite" finished-at="2023-02-15T15:42:45 IST" duration-ms="16616">
     <groups>
     </groups>
-    <test started-at="2023-02-14T18:45:51 IST" name="Default test" finished-at="2023-02-14T18:46:05 IST" duration-ms="14068">
+    <test started-at="2023-02-15T15:42:28 IST" name="Default test" finished-at="2023-02-15T15:42:45 IST" duration-ms="16616">
       <class name="Testcaseforemployee.Navigatetodesignation">
-        <test-method is-config="true" signature="settingup()[pri:0, instance:Testcaseforemployee.Navigatetodesignation@783a467b]" started-at="2023-02-14T18:45:51 IST" name="settingup" finished-at="2023-02-14T18:45:57 IST" duration-ms="5331" status="PASS">
+        <test-method is-config="true" signature="settingup()[pri:0, instance:Testcaseforemployee.Navigatetodesignation@783a467b]" started-at="2023-02-15T15:42:28 IST" name="settingup" finished-at="2023-02-15T15:42:34 IST" duration-ms="5518" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- settingup -->
-        <test-method signature="navigate()[pri:0, instance:Testcaseforemployee.Navigatetodesignation@783a467b]" started-at="2023-02-14T18:45:57 IST" name="navigate" finished-at="2023-02-14T18:46:05 IST" duration-ms="8705" status="PASS">
+        <test-method signature="navigate()[pri:0, instance:Testcaseforemployee.Navigatetodesignation@783a467b]" started-at="2023-02-15T15:42:34 IST" name="navigate" finished-at="2023-02-15T15:42:45 IST" duration-ms="11065" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigate -->
