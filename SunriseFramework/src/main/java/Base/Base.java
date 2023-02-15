@@ -21,7 +21,7 @@ public class Base {
 		
 		prop = new Properties();
 		try {
-			FileInputStream ip = new FileInputStream("H:\\Workshop\\Sunrise erp\\SunriseFramework\\src\\main\\java\\Creds\\Creds.properties");
+			FileInputStream ip = new FileInputStream("C:\\Users\\Dell\\git\\Sunirise-erp\\SunriseFramework\\src\\main\\java\\Creds\\Creds.properties");
 		prop.load(ip);
 		
 		} catch (FileNotFoundException e) {
