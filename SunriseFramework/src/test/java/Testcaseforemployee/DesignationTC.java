@@ -8,11 +8,11 @@ import Employeemodule.Designationpage;
 import LoginObjects.Loginpage;
 import Testcases.Logintestcase;
 
-public class Navigatetodesignation extends Base{
+public class DesignationTC extends Base{
 	Designationpage dp;
 	Loginpage lp;
 	
-	Navigatetodesignation()
+	DesignationTC()
 	{
 		super();
 	}
@@ -27,7 +27,7 @@ public class Navigatetodesignation extends Base{
 	}
 	
 	@Test
-	public void navigate() throws InterruptedException
+	public void navigateandcreate() throws InterruptedException
 	{
 		lp.ValidateLogin();
 		Thread.sleep(4000);
