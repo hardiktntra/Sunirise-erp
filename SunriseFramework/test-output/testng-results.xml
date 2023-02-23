@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-23T12:41:07 IST" name="Default suite" finished-at="2023-02-23T12:41:22 IST" duration-ms="15645">
+  <suite started-at="2023-02-23T14:12:26 IST" name="Default suite" finished-at="2023-02-23T14:12:41 IST" duration-ms="15017">
     <groups>
     </groups>
-    <test started-at="2023-02-23T12:41:07 IST" name="Default test" finished-at="2023-02-23T12:41:22 IST" duration-ms="15645">
-      <class name="Testcaseforgradings.PavillionopenTc">
-        <test-method is-config="true" signature="settingup()[pri:0, instance:Testcaseforgradings.PavillionopenTc@783a467b]" started-at="2023-02-23T12:41:07 IST" name="settingup" finished-at="2023-02-23T12:41:13 IST" duration-ms="6702" status="PASS">
+    <test started-at="2023-02-23T14:12:26 IST" name="Default test" finished-at="2023-02-23T14:12:41 IST" duration-ms="15017">
+      <class name="Testcaseforgradings.ShadeTc">
+        <test-method is-config="true" signature="settingup()[pri:0, instance:Testcaseforgradings.ShadeTc@783a467b]" started-at="2023-02-23T14:12:26 IST" name="settingup" finished-at="2023-02-23T14:12:33 IST" duration-ms="6125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- settingup -->
-        <test-method signature="navigateandcreate()[pri:0, instance:Testcaseforgradings.PavillionopenTc@783a467b]" started-at="2023-02-23T12:41:13 IST" name="navigateandcreate" finished-at="2023-02-23T12:41:22 IST" duration-ms="8899" status="PASS">
+        <test-method signature="navigateandcreate()[pri:0, instance:Testcaseforgradings.ShadeTc@783a467b]" started-at="2023-02-23T14:12:33 IST" name="navigateandcreate" finished-at="2023-02-23T14:12:41 IST" duration-ms="8854" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateandcreate -->
-      </class> <!-- Testcaseforgradings.PavillionopenTc -->
+      </class> <!-- Testcaseforgradings.ShadeTc -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
