@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-15T17:03:21 IST" name="Default suite" finished-at="2023-02-15T17:03:34 IST" duration-ms="13504">
+  <suite started-at="2023-02-23T11:15:44 IST" name="Default suite" finished-at="2023-02-23T11:16:01 IST" duration-ms="17798">
     <groups>
     </groups>
-    <test started-at="2023-02-15T17:03:21 IST" name="Default test" finished-at="2023-02-15T17:03:34 IST" duration-ms="13504">
-      <class name="Testcaseforemployee.QualificationTC">
-        <test-method is-config="true" signature="settingup()[pri:0, instance:Testcaseforemployee.QualificationTC@368247b9]" started-at="2023-02-15T17:03:21 IST" name="settingup" finished-at="2023-02-15T17:03:27 IST" duration-ms="5916" status="PASS">
+    <test started-at="2023-02-23T11:15:44 IST" name="Default test" finished-at="2023-02-23T11:16:01 IST" duration-ms="17798">
+      <class name="Testcaseforgradings.TableWhiteTc">
+        <test-method is-config="true" signature="settingup()[pri:0, instance:Testcaseforgradings.TableWhiteTc@783a467b]" started-at="2023-02-23T11:15:44 IST" name="settingup" finished-at="2023-02-23T11:15:52 IST" duration-ms="8699" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- settingup -->
-        <test-method signature="NavigateandcreateQualification()[pri:0, instance:Testcaseforemployee.QualificationTC@368247b9]" started-at="2023-02-15T17:03:27 IST" name="NavigateandcreateQualification" finished-at="2023-02-15T17:03:34 IST" duration-ms="7557" status="PASS">
+        <test-method signature="navigateandcreate()[pri:0, instance:Testcaseforgradings.TableWhiteTc@783a467b]" started-at="2023-02-23T11:15:52 IST" name="navigateandcreate" finished-at="2023-02-23T11:16:01 IST" duration-ms="9043" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- NavigateandcreateQualification -->
-      </class> <!-- Testcaseforemployee.QualificationTC -->
+        </test-method> <!-- navigateandcreate -->
+      </class> <!-- Testcaseforgradings.TableWhiteTc -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
