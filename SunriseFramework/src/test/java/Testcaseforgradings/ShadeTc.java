@@ -32,7 +32,6 @@ public class ShadeTc extends Base{
 		lp.ValidateLogin();
 		Thread.sleep(4000);
 		sp.navigate_to_module();
-		
 	}
  
 }
