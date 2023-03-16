@@ -8,8 +8,11 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Base {
 	
@@ -39,7 +42,11 @@ public class Base {
 		
 		if(browserName.equalsIgnoreCase("Chrome")){
 			
-			driver = new ChromeDriver(); 
+			 
+			ChromeOptions options  = new ChromeOptions();
+			options.addArguments("--remote-allow-origins=*");
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver(options);
 		}
 		else if(browserName.equalsIgnoreCase("Firefox")){
 			
